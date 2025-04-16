@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json()); // Body parser
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: ["http://localhost:3000", "http://localhost:3001","https://frontend-nu-six-41.vercel.app","https://frontend-git-main-vidhais-projects.vercel.app"],
   })
 ); // Enable CORS (optional, for frontend)
 
